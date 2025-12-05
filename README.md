@@ -3,7 +3,7 @@
 Dotfiles ini berisi konfigurasi saya pribadi untuk Fish, Neovim, LazyGit, dan Yazi.  
 Semua konfigurasi dikelola dengan **GNU Stow** agar mudah dipasang di sistem baru.
 
-## 📦 Dependensi
+## 1. 📦 Dependensi
 
 Perintah di bawah **khusus untuk Fedora**:
 
@@ -11,3 +11,15 @@ Perintah di bawah **khusus untuk Fedora**:
 sudo dnf install stow git neovim
 sudo dnf install lazygit
 sudo dnf install yazi
+```
+
+## 2. Clone Repository
+```bash
+git clone git@github.com:AhmaddAssegaff/Dotfiles.git ~/dotfiles
+```
+
+## 2. masuk ke directory dan stow dotfiles
+```bash
+cd ~/dotfiles
+stow lazygit nvim yazi fish kitty
+```
