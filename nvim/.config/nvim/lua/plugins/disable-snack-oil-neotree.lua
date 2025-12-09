@@ -20,7 +20,7 @@ return {
       select = {
         enabled = false,
       },
-      dashboard = { enabled = false },
+      dashboard = { enabled = true },
       explorer = { enabled = false },
     },
   },

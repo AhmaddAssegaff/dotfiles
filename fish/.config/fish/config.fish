@@ -6,6 +6,12 @@ alias proj='cd ~/project'
 alias cls='clear'
 alias ll='ls -l'
 
+alias tmux="tmux -u"
+alias tmuxls="tmux list-sessions"
+alias tmuxa="tmux attach || tmux new"
+alias tmuxn="tmux new-session -A -s"
+alias tmuxk="tmux kill-session -t"
+
 alias ga='git add .'
 alias gb='git branch'
 alias gc='git commit -m'
