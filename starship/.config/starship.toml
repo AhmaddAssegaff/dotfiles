@@ -1,0 +1,52 @@
+"$schema" = "https://starship.rs/config-schema.json"
+
+add_newline = false
+
+format = """
+$username@$hostname \
+$directory \
+$git_branch \
+$git_status \
+$cmd_duration
+$character
+"""
+
+[username]
+show_always = true
+style_user = "cyan bold"
+style_root = "red bold"
+format = "[$user]($style)"
+
+[hostname]
+ssh_only = true
+style = "blue bold"
+format = "[$hostname]($style)"
+
+[directory]
+style = "blue bold"
+truncate_to_repo = true
+truncation_length = 3
+
+[git_branch]
+symbol = " "
+style = "mauve bold"
+
+[git_status]
+style = "yellow bold"
+format = "([$all_status$ahead_behind]($style))"
+conflicted = "⚔ "
+modified = "!"
+staged = "+"
+untracked = "?"
+ahead = "⇡"
+behind = "⇣"
+diverged = "⇕"
+stashed = "📦 "
+
+[cmd_duration]
+min_time = 500
+format = "took [$duration](bold yellow)"
+
+[character]
+success_symbol = "[❯](green)"
+error_symbol = "[❯](red)"

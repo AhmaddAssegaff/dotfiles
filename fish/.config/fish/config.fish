@@ -10,6 +10,8 @@ if status is-interactive
     end
 end
 
+starship init fish | source
+
 set -g fish_theme "Catppuccin Mocha"
 
 alias conf='cd ~/.config'
