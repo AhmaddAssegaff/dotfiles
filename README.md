@@ -77,12 +77,12 @@ mv ~/Downloads/CaskaydiaCove/*.ttf ~/.local/share/fonts/
 # Clone Repository
 ```bash
 git clone git@github.com:AhmaddAssegaff/Dotfiles.git ~/dotfiles
-cd ~/dotfiles
 ```
 
 # Gunakan Stow untuk membuat symlink
 > **Note:** Hapus config lama di ~/.config/ jika ada konflik
 ```bash
+cd ~/dotfiles
 stow fish nvim lazygit yazi kitty tmux starship
 ```
 
