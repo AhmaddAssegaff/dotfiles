@@ -10,6 +10,9 @@ if status is-interactive
     end
 end
 
+set -U fish_pager_color_selected_background --background=brwhite
+set -U fish_pager_color_selected_completion black
+
 starship init fish | source
 
 set -g fish_theme "Catppuccin Mocha"
