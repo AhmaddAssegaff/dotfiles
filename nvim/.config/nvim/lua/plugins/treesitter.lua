@@ -1,44 +1,15 @@
+if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+
+-- Customize Treesitter
+
+---@type LazySpec
 return {
-  {
-    "nvim-treesitter/nvim-treesitter",
-    opts = {
-      -- LazyVim config for treesitter
-      indent = { enable = true }, ---@type lazyvim.TSFeat
-      highlight = { enable = true }, ---@type lazyvim.TSFeat
-      folds = { enable = true }, ---@type lazyvim.TSFeat
-      ensure_installed = {
-        -- "bash",
-        -- "c",
-        -- "diff",
-        "html",
-        "javascript",
-        -- "jsdoc",
-        "json",
-        -- "jsonc",
-        "lua",
-        -- "luadoc",
-        -- "luap",
-        -- "markdown",
-        -- "markdown_inline",
-        -- "printf",
-        "python",
-        -- "query",
-        -- "regex",
-        -- "toml",
-        "tsx",
-        "typescript",
-        -- "vim",
-        -- "vimdoc",
-        -- "xml",
-        -- "yaml",
-      },
+  "nvim-treesitter/nvim-treesitter",
+  opts = {
+    ensure_installed = {
+      "lua",
+      "vim",
+      -- add more arguments for adding more treesitter parsers
     },
-    -- opts = function(_, opts)
-    --   -- add tsx and treesitter
-    --   vim.list_extend(opts.ensure_installed, {
-    --     "tsx",
-    --     "typescript",
-    --   })
-    -- end,
   },
 }

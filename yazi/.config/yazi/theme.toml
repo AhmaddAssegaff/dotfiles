@@ -1,2 +1,5 @@
 [flavor]
 dark = "dracula"
+
+[status]
+git = true

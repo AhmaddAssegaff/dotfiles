@@ -2,6 +2,7 @@
 # VERSION: 3.0
 SETUVAR --export EDITOR:nvim
 SETUVAR --export VISUAL:nvim
+SETUVAR --export YAZI_IMAGE_BACKEND:kitty
 SETUVAR __fish_initialized:3800
 SETUVAR fish_color_autosuggestion:6c7086
 SETUVAR fish_color_cancel:f38ba8
@@ -42,4 +43,4 @@ SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3dbrwhite
 SETUVAR fish_pager_color_selected_completion:black
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
-SETUVAR fish_user_paths:/home/amdfedora/\x2elocal/bin
+SETUVAR fish_user_paths:/home/amdfedora/go/bin\x1e/usr/local/go/bin\x1e/home/amdfedora/\x2elocal/bin
