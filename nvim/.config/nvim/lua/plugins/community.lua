@@ -17,7 +17,7 @@ return {
 
   -- File explorer
   -- { import = "astrocommunity.file-explorer.yazi-nvim" },
-  { import = "astrocommunity.file-explorer.mini-files" },
+  -- { import = "astrocommunity.file-explorer.mini-files" },
 
   -- Smooth scrolling
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
@@ -30,5 +30,12 @@ return {
   { import = "astrocommunity.motion.mini-move" },
   { import = "astrocommunity.motion.mini-move" },
 
+  --APitesting
   { import = "astrocommunity.programming-language-support.kulala-nvim" },
+
+  --git
+  { import = "astrocommunity.git.diffview-nvim" },
+  { import = "astrocommunity.git.neogit" },
+  --lazydocker
+  { import = "astrocommunity.docker.lazydocker" },
 }
