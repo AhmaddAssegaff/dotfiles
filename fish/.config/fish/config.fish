@@ -54,3 +54,17 @@ function y
     end
     rm -f -- "$tmp"
 end
+
+function tw
+    set win (tv tmux-windows)
+    if test -n "$win"
+        tmux select-window -t "$win"
+    end
+end
+
+function ts
+    set session (tv tmux-sessions)
+    if test -n "$session"
+        tmux switch-client -t "$session"
+    end
+end

@@ -10,6 +10,7 @@ Repository ini berisi konfigurasi personal saya untuk menciptakan lingkungan pen
 * **Terminal Emulator:** [Kitty](https://sw.kovidgoyal.net/kitty/) (GPU Accelerated)
 * **File Manager CLI:** [Yazi](https://yazi-rs.github.io/) (Blazing Fast Terminal FM)
 * **Git TUI:** [LazyGit](https://github.com/jesseduffield/lazygit) (Simple Terminal UI for Git)
+* **Docker TUI:** [Lazydocker](https://github.com/jesseduffield/lazydocker) (Simple Terminal UI for Docker)
 * **Eza:** [eza](https://github.com/eza-community/eza) (Custom LS)
 
 ---
@@ -29,13 +30,20 @@ sudo dnf copr enable dejan/lazygit
 sudo dnf install lazygit
 ```
 
-### C. Install Yazi
+### C. Install Lazydocker
+```bash
+curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
+newgrp docker
+sudo usermod -aG docker $USER
+```
+
+### D. Install Yazi
 ```bash
 dnf copr enable lihaohong/yazi
 dnf install yazi
 ```
 
-### D. Install eza
+### E. Install eza
 ```bash
 curl -LO https://github.com/eza-community/eza/releases/latest/download/eza_x86_64-unknown-linux-gnu.tar.gz
 tar -xzf eza_x86_64-unknown-linux-gnu.tar.gz
@@ -44,7 +52,7 @@ sudo chmod +x /usr/local/bin/eza
 eza --version
 ```
 
-### E. Install Tmux & TPM (Plugin Manager)
+### F. Install Tmux & TPM (Plugin Manager)
 1. Install Tmux:
    ```bash
    sudo dnf install tmux
@@ -59,12 +67,12 @@ eza --version
    source-file ~/.config/tmux/tmux.conf
    ```
 
-### F. Install starship
+### G. Install starship
 ```bash
 curl -sS https://starship.rs/install.sh | sh
 ```
 
-### G. Install nerdfonts
+### F. Install nerdfonts
 Anda bisa cari [disini](https://www.nerdfonts.com/font-downloads)<br>
 Saya menggunakan CaskaydiaCove nerd font
 ```bash
