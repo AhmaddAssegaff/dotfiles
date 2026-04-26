@@ -38,4 +38,6 @@ return {
   { import = "astrocommunity.git.neogit" },
   --lazydocker
   { import = "astrocommunity.docker.lazydocker" },
+
+  { import = "astrocommunity.media.vim-wakatime" },
 }
