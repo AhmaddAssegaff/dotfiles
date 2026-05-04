@@ -81,6 +81,11 @@ mkdir -p ~/.local/share/fonts/
 mv ~/Downloads/CaskaydiaCove/*.ttf ~/.local/share/fonts/
 ```
 
+### G. Install wakatime
+```bash
+pip install wakatime
+```
+
 ## ⚙️ 2. Symlink Semua Config (Stow)
 ### Clone Repository
 ```bash
