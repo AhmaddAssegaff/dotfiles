@@ -1,4 +1,6 @@
-if status is-interactive
+fnm env --use-on-cd | source
+
+\if status is-interactive
     if type -q eza
         alias ls='eza --icons --group-directories-first'
         alias ll='eza -lah --icons --git'
