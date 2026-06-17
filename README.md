@@ -12,6 +12,9 @@ Repository ini berisi konfigurasi personal saya untuk menciptakan lingkungan pen
 * **Git TUI:** [LazyGit](https://github.com/jesseduffield/lazygit) (Simple Terminal UI for Git)
 * **Docker TUI:** [Lazydocker](https://github.com/jesseduffield/lazydocker) (Simple Terminal UI for Docker)
 * **Eza:** [eza](https://github.com/eza-community/eza) (Custom LS)
+* **Posting:** [Posting] (https://github.com/darrenburns/posting) (A powerful HTTP client that lives in your terminal.)
+
+
 
 ---
 
