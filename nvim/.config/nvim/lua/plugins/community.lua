@@ -41,4 +41,8 @@ return {
   { import = "astrocommunity.docker.lazydocker" },
 
   { import = "astrocommunity.media.vim-wakatime" },
+
+  { import = "astrocommunity.motion.nvim-spider" },
+
+  { import = "astrocommunity.fuzzy-finder.fzf-lua" },
 }

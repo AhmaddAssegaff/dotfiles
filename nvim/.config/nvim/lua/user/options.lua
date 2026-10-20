@@ -1,7 +1,7 @@
 return {
-  options = {
-    opt = {
-      swapfile = false,
-    },
-  },
+  -- options = {
+  --   opt = {
+  --     swapfile = false,
+  --   },
+  -- },
 }
