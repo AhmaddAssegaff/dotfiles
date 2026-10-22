@@ -8,10 +8,8 @@ Repository ini berisi konfigurasi personal saya untuk menciptakan lingkungan pen
 - **Terminal Shell:** [Fish Shell](https://fishshell.com/) (Fast & User Friendly)
 - **Terminal Multiplexer:** [Tmux](https://github.com/tmux/tmux) (Session Management)
 - **Terminal Emulator:** [Kitty](https://sw.kovidgoyal.net/kitty/) (GPU Accelerated)
-- **File Manager CLI:** [Yazi](https://yazi-rs.github.io/) (Blazing Fast Terminal FM)
 - **Git TUI:** [LazyGit](https://github.com/jesseduffield/lazygit) (Simple Terminal UI for Git)
 - **Docker TUI:** [Lazydocker](https://github.com/jesseduffield/lazydocker) (Simple Terminal UI for Docker)
-- **Posting:** [Posting] (https://github.com/darrenburns/posting) (A powerful HTTP client that lives in your terminal.)
 
 ---
 
@@ -38,13 +36,6 @@ sudo dnf install lazygit
 curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
 newgrp docker
 sudo usermod -aG docker $USER
-```
-
-### D. Install Yazi
-
-```bash
-dnf copr enable lihaohong/yazi
-dnf install yazi
 ```
 
 ### E. Install Tmux & TPM (Plugin Manager)

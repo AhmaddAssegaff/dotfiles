@@ -1,9 +1,0 @@
-[[input.prepend_keymap]]
-on   = "<Esc>"
-run  = "close"
-desc = "Cancel input"
-
-[[mgr.prepend_keymap]]
-on   = ["P"]
-run  = "toggle preview"
-desc = "Toggle preview pane"
